@@ -11,6 +11,6 @@ features:
 - title: 全区块链平台
   details: 用户可以使用以太坊、EOS、Tron 等钱包直接访问并使用基于 PW SDK 开发的 dApps
 - title: 安全
-  details: 享受与其他区块链 dApp 同等的安全性
-footer: MIT Licensed | Copyright © 2020 Lay2.dev
+  details: 始终享受与其他区块链 dApp 同等的安全性
+footer: MIT Licensed | Copyright © 2020 Lay2 Team
 ---

@@ -41,7 +41,7 @@ module.exports = {
                 children: [
                   '/guide/',
                   '/guide/getting-started',
-                  '/guide/ckb-payment'
+                  '/guide/connect-to-wallet'
                 ]
               },
               {
