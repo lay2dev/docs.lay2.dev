@@ -74,10 +74,20 @@ import PWCore, {
   EosSigner
 } from '@lay2/pw-core'
 
+// set the network parameters of EOS node
+const network = {
+  blockchain: 'eos',
+  chainId:
+    'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
+  host: 'eospush.tokenpocket.pro',
+  port: 443,
+  protocol: 'https',
+}
+
 // connect to CKB testnet: https://testnet.ckb.dev
 // connect to CKB mainnet: https://mainnet.ckb.dev/
 const pwcore = await new PWCore('https://testnet.ckb.dev').init(
-  new EosProvider(), // a built-in Provider for EOS env.
+  new EosProvider(network), // a built-in Provider for EOS env.
   new PwCollector('https://cellapitest.ckb.pw') // a custom Collector to retrive cells from cache server.
 )
 ```

@@ -83,7 +83,7 @@ module.exports = {
                 children: [
                   '/zh/guide/',
                   '/zh/guide/getting-started',
-                  '/zh/guide/ckb-payment',
+                  '/zh/guide/connect-to-wallet',
                   '/zh/guide/wallet-support'
                 ]
               },
