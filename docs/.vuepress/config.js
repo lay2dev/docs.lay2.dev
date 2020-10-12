@@ -1,6 +1,5 @@
 module.exports = {
     title: 'Hello PW SDK',
-    dest: 'public',
     description: 'Just playing around',
     locales: {
       '/': {
