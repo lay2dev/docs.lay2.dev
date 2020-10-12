@@ -5,10 +5,6 @@ lang: zh
 
 # 快速上手
 
-::: warning 前提条件
-Node.js >= 8.6
-:::
-
 ## 安装
 
 我们使用 PW Core 构建 CKB dApp，当然第一步是需要安装 PW Core SDK 包：
