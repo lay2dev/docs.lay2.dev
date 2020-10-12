@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: http://qi2stprw9.hn-bkt.clouddn.com/lay2.png
 heroText: Docs of PW SDK
 tagline: Building CKB dApps in the easiest way
 actionText: Start Now →

@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: null
+heroImage: http://qi2stprw9.hn-bkt.clouddn.com/lay2.png
 heroText: PW SDK 文档
 tagline: 用最简洁的方式构建 CKB dApps
 actionText: 快速上手 →
