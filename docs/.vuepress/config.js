@@ -83,9 +83,17 @@ module.exports = {
                 children: [
                   '/zh/guide/',
                   '/zh/guide/getting-started',
-                  '/zh/guide/connect-to-wallet',
+                  '/zh/guide/connect-to-ethwallet',
                   '/zh/guide/wallet-support'
                 ]
+              },
+              {
+                title: '扩展',
+                collapsable: false,
+                children: [
+                  '/zh/guide/connect-to-eoswallet',
+                  '/zh/guide/connect-to-tronwallet'
+                ],
               },
               {
                 title: '深入',

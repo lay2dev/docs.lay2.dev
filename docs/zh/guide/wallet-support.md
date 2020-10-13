@@ -1,9 +1,9 @@
 ---
-title: 支持钱包概况
+title: 钱包支持概况
 lang: zh
 ---
 
-# PW Core 支持钱包概况
+# PW Core 钱包支持概况
 
 ## 区块链钱包
 
