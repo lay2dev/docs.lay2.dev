@@ -5,7 +5,7 @@ lang: zh
 
 # 接入以太坊钱包
 
-通过 **PW Core**，你可以非常简单地在 dApp 中实现 CKB 和 UDT（用户自定义代币 User Defined Token）的接收和转账。
+通过 **PW Core**，你可以非常简单地在 dApps 中实现 CKB 和 UDT（用户自定义代币 User Defined Token）的接收和转账。
 
 用户无需安装新的加密货币钱包、无需创建新的 CKB 助记词，只需要打开已有的加密货币钱包，使用已经习惯的 ETH / EOS / Tron 钱包和地址，即可实现 CKB 的收发和转账。
 

@@ -41,8 +41,16 @@ module.exports = {
                 children: [
                   '/guide/',
                   '/guide/getting-started',
-                  '/guide/connect-to-wallet'
+                  '/guide/connect-to-ethwallet',
                 ]
+              },
+              {
+                title: 'Extend',
+                collapsable: false,
+                children: [
+                  '/guide/connect-to-eoswallet',
+                  '/guide/connect-to-tronwallet'
+                ],
               },
               {
                 title: 'Advanced',
