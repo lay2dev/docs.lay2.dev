@@ -1,8 +1,8 @@
 ---
-title: Connect to EOS wallets
+title: Connect to EOS wallet
 ---
 
-# Connect to EOS wallets
+# Connect to EOS wallet
 
 **PW Core** makes it very easy to receive and transfer CKB or UDT (User Defined Token) in CKB dApps.
 

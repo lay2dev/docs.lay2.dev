@@ -1,8 +1,8 @@
 ---
-title: Connect to wallets
+title: Connect to Ethereum wallet
 ---
 
-# Connect to Ethereum wallets
+# Connect to Ethereum wallet
 
 **PW Core** makes it very easy to receive and transfer CKB or UDT (User Defined Token) in CKB dApps.
 

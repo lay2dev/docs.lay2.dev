@@ -1,8 +1,8 @@
 ---
-title: Connect to Tron wallets
+title: Connect to Tron wallet
 ---
 
-# Connect to Tron wallets
+# Connect to Tron wallet
 
 **PW Core** makes it very easy to receive and transfer CKB or UDT (User Defined Token) in CKB dApps.
 

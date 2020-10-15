@@ -9,18 +9,17 @@ lang: zh
 
 我们使用 PW Core 构建 CKB dApp，当然第一步是需要安装 PW Core SDK 包：
 
-使用 npm 进行安装
+使用 `npm` 进行安装
 
 ``` bash
 # in your project root
 npm install @lay2/pw-core --save
 ```
 
-或者使用 yarn 进行安装
-
+或者使用 `yarn` 进行安装
 ``` bash
 # in your project root
-yarn add @lay2/pw-core
+npm install @lay2/pw-core --save
 ```
 
 ## Hello World
