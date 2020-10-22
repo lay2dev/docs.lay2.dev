@@ -85,3 +85,9 @@ const ckbBalance = await PWCore.defaultCollector.getBalance(anyCkbAddress)
 const anyEosAddress = new Address('Any EOS address', AddressType.eos, 'lockArgs of this EOS address')
 const ckbBalance = await PWCore.defaultCollector.getBalance(anyEosAddress)
 ```
+
+### `Get SUDT balance`
+Get the SUDT balance of the current address.
+``` js
+const sudtBalance = await PWCore.defaultCollector.getSUDTBalance(new SUDT(SUDT_ISSURER_LOCKHASH), PWCore.provider.address);
+```

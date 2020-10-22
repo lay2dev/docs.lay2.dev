@@ -75,3 +75,9 @@ const ckbBalance = await PWCore.defaultCollector.getBalance(anyCkbAddress)
 const anyEosAddress = new Address('Any EOS address', AddressType.eos, 'lockArgs of this EOS address')
 const ckbBalance = await PWCore.defaultCollector.getBalance(anyEosAddress)
 ```
+
+### `获取SUDT余额`
+获取当前地址的 CKB 余额：
+``` js
+const sudtBalance = await PWCore.defaultCollector.getSUDTBalance(new SUDT(SUDT_ISSURER_LOCKHASH), PWCore.provider.address);
+```

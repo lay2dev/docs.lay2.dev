@@ -77,3 +77,9 @@ const ckbBalance = await PWCore.defaultCollector.getBalance(anyCkbAddress)
 const anyEthAddress = new Address('Any ETH address', AddressType.eth)
 const ckbBalance = await PWCore.defaultCollector.getBalance(anyEthAddress)
 ```
+
+### `Get SUDT balance`
+Get the SUDT balance of the current address.
+``` js
+const sudtBalance = await PWCore.defaultCollector.getSUDTBalance(new SUDT(SUDT_ISSURER_LOCKHASH), PWCore.provider.address);
+```

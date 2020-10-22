@@ -78,3 +78,9 @@ const ckbBalance = await PWCore.defaultCollector.getBalance(anyCkbAddress)
 const anyEthAddress = new Address('Any ETH address', AddressType.eth)
 const ckbBalance = await PWCore.defaultCollector.getBalance(anyEthAddress)
 ```
+
+### `获取SUDT余额`
+获取当前地址的 CKB 余额：
+``` js
+const sudtBalance = await PWCore.defaultCollector.getSUDTBalance(new SUDT(SUDT_ISSURER_LOCKHASH), PWCore.provider.address);
+```

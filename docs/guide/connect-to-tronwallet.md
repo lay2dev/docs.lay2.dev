@@ -74,3 +74,9 @@ const ckbBalance = await PWCore.defaultCollector.getBalance(anyCkbAddress)
 const anyTronAddress = new Address('Any Tron address', AddressType.tron)
 const ckbBalance = await PWCore.defaultCollector.getBalance(anyTronAddress)
 ```
+
+### `Get SUDT balance`
+Get the SUDT balance of the current address.
+``` js
+const sudtBalance = await PWCore.defaultCollector.getSUDTBalance(new SUDT(SUDT_ISSURER_LOCKHASH), PWCore.provider.address);
+```
