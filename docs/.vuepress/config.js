@@ -30,7 +30,7 @@ module.exports = {
           nav: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
-            { text: 'Demo', link: '/demo/', target:'_blank'},
+            { text: 'Demo', link: 'https://pay.lay2.dev/', target:'_blank'},
             { text: 'Github', link: 'https://github.com/lay2dev/pw-core' },
           ],
           sidebar: {
@@ -50,12 +50,6 @@ module.exports = {
                 children: [
                   '/guide/connect-to-eoswallet',
                   '/guide/connect-to-tronwallet'
-                ],
-              },
-              {
-                title: 'Advanced',
-                collapsable: false,
-                children: [
                 ],
               }
             ]
@@ -80,7 +74,7 @@ module.exports = {
           nav: [
             { text: '主页', link: '/zh/' },
             { text: '教程', link: '/zh/guide/' },
-            { text: '示例', link: '/zh/demo/', target:'_blank'},
+            { text: '示例', link: 'https://pay.lay2.dev/', target:'_blank'},
             { text: 'Github', link: 'https://github.com/lay2dev/pw-core' },
           ],
           sidebar: {
@@ -101,12 +95,6 @@ module.exports = {
                 children: [
                   '/zh/guide/connect-to-eoswallet',
                   '/zh/guide/connect-to-tronwallet'
-                ],
-              },
-              {
-                title: '深入',
-                collapsable: false,
-                children: [
                 ],
               }
             ]
