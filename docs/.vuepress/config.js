@@ -74,7 +74,7 @@ module.exports = {
           nav: [
             { text: '主页', link: '/zh/' },
             { text: '教程', link: '/zh/guide/' },
-            { text: '示例', link: 'https://pay.lay2.dev/', target:'_blank'},
+            { text: 'Demo', link: 'https://pay.lay2.dev/', target:'_blank'},
             { text: 'Github', link: 'https://github.com/lay2dev/pw-core' },
           ],
           sidebar: {
@@ -93,6 +93,7 @@ module.exports = {
                 title: '扩展',
                 collapsable: false,
                 children: [
+                  '/zh/guide/payment-demo',
                   '/zh/guide/connect-to-eoswallet',
                   '/zh/guide/connect-to-tronwallet'
                 ],

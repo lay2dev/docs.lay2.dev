@@ -1,5 +1,5 @@
 ---
-title: 接入 Tron 钱包
+title: 连接 Tron 钱包
 lang: zh
 ---
 

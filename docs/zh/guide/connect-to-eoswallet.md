@@ -1,5 +1,5 @@
 ---
-title: 接入 EOS 钱包
+title: 连接 EOS 钱包
 lang: zh
 ---
 
