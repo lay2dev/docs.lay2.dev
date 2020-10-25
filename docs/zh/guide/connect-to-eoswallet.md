@@ -35,7 +35,7 @@ const network = {
 }
 
 // connect to CKB testnet: https://testnet.ckb.dev
-// connect to CKB mainnet: https://mainnet.ckb.dev/
+// connect to CKB mainnet: https://mainnet.ckb.dev
 const pwcore = await new PWCore('https://testnet.ckb.dev').init(
   new EosProvider(network), // a built-in Provider for EOS env.
   new PwCollector('https://cellapitest.ckb.pw') // a custom Collector to retrive cells from cache server.

@@ -27,7 +27,7 @@ import PWCore, {
 } from '@lay2/pw-core'
 
 // connect to CKB testnet: https://testnet.ckb.dev
-// connect to CKB mainnet: https://mainnet.ckb.dev/
+// connect to CKB mainnet: https://mainnet.ckb.dev
 const pwcore = await new PWCore('https://testnet.ckb.dev').init(
   new EthProvider(), // a built-in Provider for Ethereum env.
   new PwCollector('https://cellapitest.ckb.pw') // a custom Collector to retrive cells from cache server.
@@ -36,12 +36,12 @@ const pwcore = await new PWCore('https://testnet.ckb.dev').init(
 
 ::: warning Note
 You can choose to connect the CKB nodes provided by the Lay2 team below, or of course you can choose to connect your own CKB nodes.
-* CKB Mainnet：https://mainnet.ckb.dev/
+* CKB Mainnet：https://mainnet.ckb.dev
 * CKB Testnet：https://testnet.ckb.dev
 
 There are limit for frequency:
-* rate: 20 req / s
-* burst: 20 req / s, you will receive 500 Error if the limit is exceeded.
+* rate: 20 req/s
+* burst: 20 req/s, you will receive 500 Error if the limit is exceeded.
 :::
 
 ## General Purpose Commands

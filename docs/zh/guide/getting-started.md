@@ -49,4 +49,4 @@ const txHash = await pwcore.send(
 );
 ```
 
-就是这么简单，我们已经链接到了我们常用的以太坊钱包（比如：MetaMask、imToken 等等），并且正在向尾号 `121d` 的地址发送了 100 个 CKB。
+就是这么简单，我们已经链接到了我们常用的以太坊钱包（比如：MetaMask、imToken 等等），并且向尾号 `121d` 的地址发送了 100 个 CKB。

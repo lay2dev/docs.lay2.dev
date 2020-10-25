@@ -28,7 +28,7 @@ import PWCore, {
 } from '@lay2/pw-core'
 
 // connect to CKB testnet: https://testnet.ckb.dev
-// connect to CKB mainnet: https://mainnet.ckb.dev/
+// connect to CKB mainnet: https://mainnet.ckb.dev
 const pwcore = await new PWCore('https://testnet.ckb.dev').init(
   new EthProvider(), // a built-in Provider for Ethereum env.
   new PwCollector('https://cellapitest.ckb.pw') // a custom Collector to retrive cells from cache server.
@@ -37,12 +37,12 @@ const pwcore = await new PWCore('https://testnet.ckb.dev').init(
 
 ::: warning Note
 您可以选择连接下方由 Lay2 团队提供的 CKB 节点，当然也可以选择连接自己运行的 CKB 节点。
-* CKB 主网：https://mainnet.ckb.dev/
+* CKB 主网：https://mainnet.ckb.dev
 * CKB 测试网：https://testnet.ckb.dev
 
 请注意，接口限制:
-* rate: 20 req / s
-* burst: 20 req / s 超出限制会收到提示为 500 的报错。
+* rate: 20 req/s
+* burst: 20 req/s 超出限制会收到提示为 500 的报错。
 :::
 
 ## 常用指令

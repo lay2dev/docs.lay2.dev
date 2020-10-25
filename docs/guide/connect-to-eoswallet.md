@@ -35,7 +35,7 @@ const network = {
 }
 
 // connect to CKB testnet: https://testnet.ckb.dev
-// connect to CKB mainnet: https://mainnet.ckb.dev/
+// connect to CKB mainnet: https://mainnet.ckb.dev
 const pwcore = await new PWCore('https://testnet.ckb.dev').init(
   new EosProvider(network), // a built-in Provider for EOS env.
   new PwCollector('https://cellapitest.ckb.pw') // a custom Collector to retrive cells from cache server.
@@ -44,7 +44,7 @@ const pwcore = await new PWCore('https://testnet.ckb.dev').init(
 
 ::: warning Note
 You can choose to connect the CKB nodes provided by the Lay2 team below, or of course you can choose to connect your own CKB nodes.
-* CKB Mainnet：https://mainnet.ckb.dev/
+* CKB Mainnet：https://mainnet.ckb.dev
 * CKB Testnet：https://testnet.ckb.dev
 
 There are limit for frequency:

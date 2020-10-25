@@ -24,7 +24,7 @@ import PWCore, {
 } from '@lay2/pw-core'
 
 // connect to CKB testnet: https://testnet.ckb.dev
-// connect to CKB mainnet: https://mainnet.ckb.dev/
+// connect to CKB mainnet: https://mainnet.ckb.dev
 const pwcore = await new PWCore('https://testnet.ckb.dev').init(
   new TronProvider(), // a built-in Provider for Tron env.
   new PwCollector('https://cellapitest.ckb.pw') // a custom Collector to retrive cells from cache server.
