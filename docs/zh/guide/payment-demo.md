@@ -6,7 +6,7 @@ lang: zh
 # 支付 Demo 简介
 
 ::: tip Tip
-我们基于 [**PW Core**](https://github.com/lay2dev/pw-core) 开发了一个简单的 CKB 和 SUDT (User Defined Token) 的[**支付 Demo**](https://pay.lay2.dev/)
+我们基于 [**PW Core**](https://github.com/lay2dev/pw-core) 开发了一个简单的 CKB 和 SUDT ([Simple User Defined Token](https://github.com/nervosnetwork/rfcs/blob/master/rfcs/0025-simple-udt/0025-simple-udt.md)) 的[**支付 Demo**](https://pay.lay2.dev/)
 :::
 
 ## 连接钱包
@@ -28,21 +28,26 @@ lang: zh
 
 ## 获取信息
 
-在连接钱包后，将会依次获取并显示以下信息：
+在连接钱包后，将会获取并显示以下信息：
 * 当前登陆的钱包地址，及其对应的 CKB 地址
 * 当前钱包地址的 CKB 余额
 * 当前钱包地址的 SUDT 余额（demo 中使用 PWBTC 作为示例）
 
-## 转账
+## 转账CKB或SUDT
 
-在转账部分，您可以选择转账币种（CKB 或 SUDT），然后依次输入转账地址和转账金额。
+在转账部分，您需要选择转账币种（CKB 或 PWBTC），然后依次输入转账地址和转账金额。
 
-您可以使用多种格式的地址作为转账地址：
+您可以使用多种格式的地址作为代币接收地址：
 * CKB 地址
     * CKB 短地址
     * CKB 长地址
 * 以太坊地址
-* EOS 用户地址（仅支持 12 位的用户地址，暂不支持其他长度的地址或合约地址）
+* EOS 地址
 * Tron 地址
+
+::: warning Note
+对于以太坊、EOS 和 Torn 地址，仅支持普通用户地址，不支持合约地址
+:::
+
 
 在输入完成后，点击发送，进行签名，完成签名，等待交易打包上链。

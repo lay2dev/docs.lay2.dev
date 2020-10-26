@@ -51,6 +51,13 @@ module.exports = {
                   '/guide/connect-to-eoswallet',
                   '/guide/connect-to-tronwallet'
                 ],
+              },
+              {
+                title: 'Demo',
+                collapsable: false,
+                children: [
+                  '/guide/payment-demo'
+                ],
               }
             ]
           }
