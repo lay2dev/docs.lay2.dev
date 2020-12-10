@@ -9,7 +9,7 @@ module.exports = {
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "PW SDK",
+      title: "Lay2 文档",
       description: "使用 PW SDK 快速构建 CKB dApp",
     },
   },
