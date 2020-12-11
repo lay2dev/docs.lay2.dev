@@ -53,11 +53,11 @@ PW-Lock 脚本参考了 CKB 官方锁定脚本的实现，替换了相关的 has
 
 wrapped_message_digest 是基于 message_digest 获得，为了适配不同的链采用各条链上支持的自定义消息签名方法的预处理逻辑进行处理后得
 
-- Ethereum 上支持两种自定义消息签名：[eth_personalSign](https://github.com/MetaMask/eth-sig-util#personalsign-privatekeybuffer-msgparams) 和 [eth_signTypedData_v4](https://docs.metamask.io/guide/signing-data.html#sign-typed-data-v4)，对应的[预处理方式](./docs_cn/Ethereum.md) 。
+- Ethereum 上支持两种自定义消息签名：[eth_personalSign](https://github.com/MetaMask/eth-sig-util#personalsign-privatekeybuffer-msgparams) 和 [eth_signTypedData_v4](https://docs.metamask.io/guide/signing-data.html#sign-typed-data-v4)，对应的[预处理方式](./lock-eth.md) 。
 
-- EOS 上支持的自定义消息签名为 [scatter.getArbitrarySignature()](https://get-scatter.com/developers/api/requestarbitrarysignature)，对应的[预处理方式](./docs_cn/EOS.md) 。
+- EOS 上支持的自定义消息签名为 [scatter.getArbitrarySignature()](https://get-scatter.com/developers/api/requestarbitrarysignature)，对应的[预处理方式](./lock-eos.md) 。
 
-- TRON上支持的自定义消息签名为 [tronweb.trx.sign()](https://developers.tron.network/docs/tronlink-integration#signature)，对应的[预处理方式](./docs_cn/TRON.md) 。
+- TRON上支持的自定义消息签名为 [tronweb.trx.sign()](https://developers.tron.network/docs/tronlink-integration#signature)，对应的[预处理方式](./lock-tron.md) 。
 
 #### 支持 Anyone-can-pay
 

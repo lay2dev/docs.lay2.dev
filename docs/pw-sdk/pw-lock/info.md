@@ -53,9 +53,11 @@ The script implementation flow is as follows:
 
 Wrapped_message_digest is obtained based on message_digest, which is processed using the pre-processing logic of the custom message signature methods supported on each chain in order to adapt different chains.
 
-- Two custom message signatures are supported on Ethereum: [eth_personalSign](https://github.com/MetaMask/eth-sig-util#personalsign-privatekeybuffer-msgparams) and [eth_signTypedData_v4](https://docs.metamask.io/guide/signing-data.html#sign-typed-data-v4), here is [the corresponding preprocessing methods](./docs/Ethereum.md).
-- The custom message signature supported on EOS is [scatter.getArbitrarySignature()](https://get-scatter.com/developers/api/requestarbitrarysignature), here is [the corresponding preprocessing methods](./docs/EOS.md).
-- The custom message signature supported on TRON is [tronweb.trx.sign()](https://developers.tron.network/docs/tronlink-integration#signature), here is [the corresponding preprocessing methods](./docs/TRON.md).
+- Two custom message signatures are supported on Ethereum: [eth_personalSign](https://github.com/MetaMask/eth-sig-util#personalsign-privatekeybuffer-msgparams) and [eth_signTypedData_v4](https://docs.metamask.io/guide/signing-data.html#sign-typed-data-v4), here is the corresponding [preprocessing methods](./lock-eth.md).
+
+- The custom message signature supported on EOS is [scatter.getArbitrarySignature()](https://get-scatter.com/developers/api/requestarbitrarysignature), here is the corresponding [preprocessing methods](./lock-eos.md).
+
+- The custom message signature supported on TRON is [tronweb.trx.sign()](https://developers.tron.network/docs/tronlink-integration#signature), here is the corresponding [preprocessing methods](./lock-tron.md).
 
 #### Support for Anyone-can-pay
 
