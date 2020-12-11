@@ -4,12 +4,12 @@ module.exports = {
   locales: {
     "/": {
       lang: "en-US",
-      title: "Lay2 Documents",
+      title: "Lay2 SDK",
       description: "Use PW SDK to build a CKB dApp",
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "Lay2 文档",
+      title: "Lay2 SDK",
       description: "使用 PW SDK 快速构建 CKB dApp",
     },
   },
@@ -36,26 +36,36 @@ module.exports = {
         sidebar: {
           "/pw-sdk/": [
             {
-              title: "PW-SDK",
+              title: "Introduction",
               collapsable: false,
               children: [
                 "/pw-sdk/",
                 "/pw-sdk/getting-started",
-                "/pw-sdk/connect-to-ethwallet",
               ],
             },
             {
-              title: "Extend",
+              title: "PW-Core",
               collapsable: false,
               children: [
-                "/pw-sdk/connect-to-eoswallet",
-                "/pw-sdk/connect-to-tronwallet",
+                "/pw-sdk/pw-core/connect-to-eth",
+                "/pw-sdk/pw-core/connect-to-eos",
+                "/pw-sdk/pw-core/connect-to-tron",
+              ],
+            },
+            {
+              title: "PW-Lock",
+              collapsable: false,
+              children: [
+                "/pw-sdk/pw-lock/info",
+                "/pw-sdk/pw-lock/lock-eth",
+                "/pw-sdk/pw-lock/lock-eos",
+                "/pw-sdk/pw-lock/lock-tron",
               ],
             },
             {
               title: "Demo",
               collapsable: false,
-              children: ["/pw-sdk/payment-demo"],
+              children: ["/pw-sdk/demo/payment-demo"],
             },
           ],
         },
@@ -85,27 +95,36 @@ module.exports = {
         sidebar: {
           "/zh/pw-sdk/": [
             {
-              title: "PW-SDK",
+              title: "介绍",
               collapsable: false,
               children: [
                 "/zh/pw-sdk/",
                 "/zh/pw-sdk/getting-started",
-                "/zh/pw-sdk/connect-to-ethwallet",
-                "/zh/pw-sdk/wallet-support",
+              ]
+            },
+            {
+              title: "PW-Core",
+              collapsable: false,
+              children: [
+                "/zh/pw-sdk/pw-core/connect-to-eth",
+                "/zh/pw-sdk/pw-core/connect-to-eos",
+                "/zh/pw-sdk/pw-core/connect-to-tron",
               ],
             },
             {
-              title: "扩展",
+              title: "PW-Lock",
               collapsable: false,
               children: [
-                "/zh/pw-sdk/connect-to-eoswallet",
-                "/zh/pw-sdk/connect-to-tronwallet",
+                "/zh/pw-sdk/pw-lock/info",
+                "/zh/pw-sdk/pw-lock/lock-eth",
+                "/zh/pw-sdk/pw-lock/lock-eos",
+                "/zh/pw-sdk/pw-lock/lock-tron",
               ],
             },
             {
               title: "Demo",
               collapsable: false,
-              children: ["/zh/pw-sdk/payment-demo"],
+              children: ["/zh/pw-sdk/demo/payment-demo"],
             },
           ],
         },
